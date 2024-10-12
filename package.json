@@ -44,5 +44,10 @@
     "@actions/exec": "^1.0.3",
     "@actions/github": "^2.1.1",
     "@actions/io": "^1.0.2"
-  }
+  },
+  "overrides":{
+   "foo":{
+     "source-map": "0.7.4"
+   }
+ }
 }
